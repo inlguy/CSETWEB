@@ -16,6 +16,7 @@ function Actions(editorUi)
  */
 Actions.prototype.init = function()
 {
+	console.log("In the init function");
 	var ui = this.editorUi;
 	var editor = ui.editor;
 	var graph = editor.graph;
